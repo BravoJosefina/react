@@ -1,0 +1,27 @@
+{{#partial "content"}}
+    <div class="site-content">
+        <div class="row">
+            <div class="col col-8 col-push-2">
+                <h1 class="display">
+                    {{#with user}}
+                        Hello {{first_name}} {{last_name}}!
+                    {{else}}
+                        Hello world!
+                    {{/with}}
+                </h1>
+                {{#with team}}
+                    <p>Feel free to reach out to <a href="mailto:{{email}}?subject=I%20have%20a%20question!">{{name}}</a> for questions!</p>
+                {{/with}}
+            </div>
+        </div>
+        <!-- class .ege-uitk-react-container is necessary to override the UITK react styles -->
+        <div id="input-example" class="ege-uitk-react-container"></div>
+    </div>
+{{/partial}}
+
+{{#partial "more-scripts"}}
+{{!-- Include the necessary bundled modules to the page. --}}
+{{{includeJsBundle bundleName="input-example" assetPath=EG.appHostedAssetPath}}}
+{{/partial}}
+
+{{> layouts/default}}

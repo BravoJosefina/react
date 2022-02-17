@@ -1,0 +1,11 @@
+@import 'uitk-react-utils/styles/index.scss';
+
+// Class .ege-uitk-react-container is necessary to override the UITK react styles
+.ege-uitk-react-container {
+  // @import 'uitk-react-foundation/styles/index.scss'; // Has to have it and has to come first
+  // Required package to use uitk-react-input according to uitk-react document
+  @import 'uitk-react-button/styles/index.scss';
+  @import 'uitk-react-field/styles/index.scss';
+  @import 'uitk-react-icons/styles/index.scss';
+  @import 'uitk-react-input/styles/index.scss';
+}

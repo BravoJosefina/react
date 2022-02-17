@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "url" : "/auth-service/v1/tokens/validate",
+    "method" : "POST",
+    "bodyPatterns": [
+      {
+        "contains": "access_token=SuperUserTestToken"
+      }
+    ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "auth-service/v1.tokens.validate.SuperUserTestToken.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,POST,DELETE,PUT",
+      "Access-Control-Allow-Headers" : "Content-Type"
+    }
+  }
+}

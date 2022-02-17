@@ -1,0 +1,23 @@
+{
+  "name": "uitk.region_capturing_domain_patterns",
+  "values": [
+    {
+      "value": {
+        "domain_pattern": "wwwegencia(.*)\\.int-maui\\.sb\\.karmalab\\.net",
+        "corporate_domain_pattern": "corporate(\\w+)?expediacustomercom\\.int-maui\\.sb\\.karmalab\\.net",
+        "local_domain_pattern": "local\\.egencia\\.(.+)"
+      }
+    }
+  ],
+  "id": "5db8b143ef964e00012345a8",
+  "type": "CONFIG_ITEM",
+  "description": "An object to define how to parse the request domain with a group on the domain extension.\n\nEach pattern MUST contain at least one group.",
+  "changed_at": "2020-02-18T23:25:30.266+00:00",
+  "changed_by": "6356871",
+  "hidden_client_side": true,
+  "version": 7,
+  "groups": [
+    "uitk"
+  ],
+  "changed_by_name": "Dean Durgle"
+}

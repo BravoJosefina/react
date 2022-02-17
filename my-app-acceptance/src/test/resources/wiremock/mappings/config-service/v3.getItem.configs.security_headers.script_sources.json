@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/config-service/v3/configs/security_headers.script_sources",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "config-service/v3.getItem.configs.security_headers.script_sources.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,POST,DELETE,PUT",
+      "Access-Control-Allow-Headers" : "Content-Type"
+    }
+  }
+}

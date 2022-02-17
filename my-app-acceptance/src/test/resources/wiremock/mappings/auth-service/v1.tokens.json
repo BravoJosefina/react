@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/auth-service/v1/tokens",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "auth-service/v1.tokens.validate.ServiceToken.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,POST,DELETE,PUT",
+      "Access-Control-Allow-Headers" : "Content-Type"
+    }
+  }
+}

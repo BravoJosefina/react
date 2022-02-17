@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+  main:
+    banner-mode: "off"
+
+logging:
+  level:
+    root: ERROR
+    com.egencia.library: ERROR
+    com.mangofactory.swagger: ERROR

@@ -1,0 +1,36 @@
+
+
+{
+  "name": "security_headers.upgrade_insecure_requests",
+  "values": [
+    {
+      "value": true
+    },
+    {
+      "value": false,
+      "stripes": {
+        "application_name": [
+          "rails"
+        ]
+      }
+    }
+  ],
+  "id": "5b8986d0d73dc80001a0b0c4",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP upgrade insecure request value",
+  "stripes": [
+    "application_name"
+  ],
+  "format": {
+    "type": "boolean"
+  },
+  "changed_at": "2021-06-15T14:28:22.825+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 4,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}
+

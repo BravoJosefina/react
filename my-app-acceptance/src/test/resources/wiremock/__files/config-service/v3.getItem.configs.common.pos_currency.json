@@ -1,0 +1,227 @@
+{
+  "name": "common.pos_currency",
+  "values": [
+    {
+      "value": ""
+    },
+    {
+      "value": "USD",
+      "stripes": {
+        "product_id": [
+          "60000"
+        ]
+      }
+    },
+    {
+      "value": "GBP",
+      "stripes": {
+        "product_id": [
+          "60003",
+          "62003"
+        ]
+      }
+    },
+    {
+      "value": "CAD",
+      "stripes": {
+        "product_id": [
+          "60004"
+        ]
+      }
+    },
+    {
+      "value": "EUR",
+      "stripes": {
+        "product_id": [
+          "60006",
+          "60008",
+          "60009",
+          "60011",
+          "60020",
+          "60080",
+          "60081",
+          "60083",
+          "62006",
+          "62011",
+          "62020",
+          "62080"
+        ]
+      }
+    },
+    {
+      "value": "SEK",
+      "stripes": {
+        "product_id": [
+          "60010"
+        ]
+      }
+    },
+    {
+      "value": "DKK",
+      "stripes": {
+        "product_id": [
+          "60013"
+        ]
+      }
+    },
+    {
+      "value": "AUD",
+      "stripes": {
+        "product_id": [
+          "60025",
+          "61025"
+        ]
+      }
+    },
+    {
+      "value": "INR",
+      "stripes": {
+        "product_id": [
+          "60027",
+          "61027"
+        ]
+      }
+    },
+    {
+      "value": "NOK",
+      "stripes": {
+        "product_id": [
+          "60035"
+        ]
+      }
+    },
+    {
+      "value": "CHF",
+      "stripes": {
+        "product_id": [
+          "60082",
+          "62082"
+        ]
+      }
+    },
+    {
+      "value": "PLN",
+      "stripes": {
+        "product_id": [
+          "60084"
+        ]
+      }
+    },
+    {
+      "value": "CZK",
+      "stripes": {
+        "product_id": [
+          "60085"
+        ]
+      }
+    },
+    {
+      "value": "CNY",
+      "stripes": {
+        "product_id": [
+          "60086"
+        ]
+      }
+    },
+    {
+      "value": "TRY",
+      "stripes": {
+        "product_id": [
+          "60087"
+        ]
+      }
+    },
+    {
+      "value": "ZAR",
+      "stripes": {
+        "product_id": [
+          "60088"
+        ]
+      }
+    },
+    {
+      "value": "BRL",
+      "stripes": {
+        "product_id": [
+          "60089"
+        ]
+      }
+    },
+    {
+      "value": "MXN",
+      "stripes": {
+        "product_id": [
+          "60090"
+        ]
+      }
+    },
+    {
+      "value": "ILS",
+      "stripes": {
+        "product_id": [
+          "60091"
+        ]
+      }
+    },
+    {
+      "value": "SGD",
+      "stripes": {
+        "product_id": [
+          "60092"
+        ]
+      }
+    },
+    {
+      "value": "AED",
+      "stripes": {
+        "product_id": [
+          "60093"
+        ]
+      }
+    },
+    {
+      "value": "RUR",
+      "stripes": {
+        "product_id": [
+          "60094"
+        ]
+      }
+    },
+    {
+      "value": "HKD",
+      "stripes": {
+        "product_id": [
+          "60095"
+        ]
+      }
+    },
+    {
+      "value": "PHP",
+      "stripes": {
+        "product_id": [
+          "60096"
+        ]
+      }
+    },
+    {
+      "value": "NZD",
+      "stripes": {
+        "product_id": [
+          "60097"
+        ]
+      }
+    }
+  ],
+  "type": "CONFIG_ITEM",
+  "description": "PoS default currency mapping",
+  "stripes": [
+    "product_id"
+  ],
+  "format": {
+    "type": "string"
+  },
+  "changed_at": "2017-03-22T22:59:46.358+0000",
+  "changed_by": "5082057",
+  "version": 6,
+  "changed_by_name": "ConfigServiceSenior TestUser"
+}

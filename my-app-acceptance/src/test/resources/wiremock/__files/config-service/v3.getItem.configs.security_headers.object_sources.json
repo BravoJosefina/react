@@ -1,0 +1,32 @@
+{
+  "name": "security_headers.object_sources",
+  "values": [
+    {
+      "value": []
+    },
+    {
+      "value": [
+        "none"
+      ],
+      "stripes": {
+        "application_name": [
+          "rails"
+        ]
+      }
+    }
+  ],
+  "id": "5b8f05b9d73dc80001a0b160",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP object-src value",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2021-06-15T11:54:05.072+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 5,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}

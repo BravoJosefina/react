@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.egencia.webapp.myapp</groupId>
+        <artifactId>my-app-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>My app Webapp - Acceptance</name>
+    <artifactId>my-app-acceptance</artifactId>
+    <description>An Egencia Fusion web app - Acceptance Tests</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- cross coordinated with spring-boot-starter-test, the Application class is run -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>my-app</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- likely inherited from the `my-test-project` dependency but used for the `RestTemplateBuilder` -->
+        <dependency>
+            <groupId>com.egencia.library</groupId>
+            <artifactId>commons-web</artifactId>
+        </dependency>
+
+        <!-- for starting the application before tests -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

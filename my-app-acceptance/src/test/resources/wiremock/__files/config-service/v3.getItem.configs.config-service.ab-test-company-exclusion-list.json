@@ -1,0 +1,25 @@
+{
+  "name": "config-service.ab-test-company-exclusion-list",
+  "values": [
+    {
+      "value": []
+    }
+  ],
+  "id": "5b4d22edd130c60001a47664",
+  "type": "CONFIG_ITEM",
+  "description": "List of companies that should always be excluded from ab tests",
+  "format": {
+    "type": "array",
+    "items": {
+      "type": "number"
+    }
+  },
+  "changed_at": "2018-11-22T13:44:07.533+0000",
+  "changed_by": "5167479",
+  "hidden_client_side": false,
+  "version": 7,
+  "groups": [
+    "step"
+  ],
+  "changed_by_name": "ConfigServiceSenior TestUser"
+}

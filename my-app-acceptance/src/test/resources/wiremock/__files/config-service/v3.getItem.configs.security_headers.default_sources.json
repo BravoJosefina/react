@@ -1,0 +1,38 @@
+{
+  "name": "security_headers.default_sources",
+  "values": [
+    {
+      "value": []
+    },
+    {
+      "value": [
+        "self",
+        "*.egencia.com",
+        "*.expedia.com",
+        "unsafe-inline",
+        "https:",
+        "data:"
+      ],
+      "stripes": {
+        "application_name": [
+          "home",
+          "rails"
+        ]
+      }
+    }
+  ],
+  "id": "5b8f0534dd4aca00017b0ee0",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP default-src value",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2021-06-15T11:49:01.975+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 9,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}

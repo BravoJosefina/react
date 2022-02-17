@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/config-service/v3/configs/config-service.ab-test-company-exclusion-list",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "config-service/v3.getItem.configs.config-service.ab-test-company-exclusion-list.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,POST,DELETE,PUT",
+      "Access-Control-Allow-Headers" : "Content-Type"
+    }
+  }
+}

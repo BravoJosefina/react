@@ -1,0 +1,41 @@
+#-------------------------------------- Test Config Starts -----------------------------------------------------------
+spring:
+  main:
+#    spring injects default locale resolver, and bean overriding is disabled by default
+#    we get an error about LocaleResolver not being able to override, hence this setting
+    allow-bean-definition-overriding: true
+    banner-mode: "off"
+
+egencia:
+  services:
+    base-url: http://localhost:8000
+
+info:
+    build:
+        commit:
+            id: 0
+
+stage: test
+datacenter: local
+
+server:
+  servlet:
+    context-path: /my-app
+
+logging:
+    level:
+        root: ERROR
+        org.springframework: ERROR
+        com.egencia.library: ERROR
+        com.egencia.service.globalheader.test: DEBUG
+        org.eclipse.jetty: ERROR
+
+auth:
+  enabled: false
+
+uitk:
+  app_asset_version: local
+  uitk_asset_version: local
+  ghs:
+    url: http://localhost:8000/global-header-service
+

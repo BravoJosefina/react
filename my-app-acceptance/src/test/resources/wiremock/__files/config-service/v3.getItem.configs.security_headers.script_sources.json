@@ -1,0 +1,48 @@
+{
+  "name": "security_headers.script_sources",
+  "values": [
+    {
+      "value": []
+    },
+    {
+      "value": [
+        "self",
+        "*.egencia.com",
+        "*.expedia.com",
+        "unsafe-inline",
+        "unsafe-eval",
+        "report.egencia.glassboxdigital.io",
+        "maps.googleapis.com",
+        "cdn.glassboxcdn.com",
+        "www.googletagmanager.com",
+        "www.googletagservices.com",
+        "www.googleadservices.com",
+        "adservice.google.com",
+        "googlesyndication.com",
+        "*.googlesyndication.com",
+        "*.doubleclick.net"
+      ],
+      "stripes": {
+        "application_name": [
+          "home",
+          "rails",
+          "travel-advisor"
+        ]
+      }
+    }
+  ],
+  "id": "5b8eff87d73dc80001a0b15a",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP script-src value",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2021-06-15T14:26:51.333+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 15,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}

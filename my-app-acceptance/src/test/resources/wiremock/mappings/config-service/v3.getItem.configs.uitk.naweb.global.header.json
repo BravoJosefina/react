@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/config-service/v3/configs/uitk.naweb.global.header",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "config-service/v3.getItem.configs.uitk.naweb.global.header.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET,POST,DELETE,PUT",
+      "Access-Control-Allow-Headers" : "Content-Type"
+    }
+  }
+}

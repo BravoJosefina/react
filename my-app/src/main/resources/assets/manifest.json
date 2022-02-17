@@ -1,0 +1,17 @@
+{
+    "name": "my-app",
+    "short_name" :"my-app",
+    "icons": [
+        {
+            "src": "images/egencia144-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": 2.0
+        }
+    ],
+    "theme_color": "rgb(246, 191, 56)",
+    "background_color": "rgb(32,45,56)",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https://www.egencia.com/my-app/"
+}

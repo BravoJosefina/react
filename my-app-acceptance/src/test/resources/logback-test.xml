@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="false">
+    <contextName>my-app</contextName>
+
+    <!-- Default Egencia logging configuration -->
+    <include resource="logback-egencia-default-base.xml" />
+    <logger name="org.eclipse.jetty" level="error" />
+    <logger name="org.springframework.test" level="error" />
+
+    <!-- Custom Logback configuration goes here -->
+    <!-- Make sure to double check what logback-egencia-default-spring.xml brings in for you -->
+    <!-- Typical usage: BusinessLogger declaration, custom obfuscation rules if any -->
+
+</configuration>

@@ -1,0 +1,43 @@
+{
+  "name": "security_headers.frame_ancestors",
+  "values": [
+    {
+      "value": []
+    },
+    {
+      "value": [
+        "trm-rh.mpsa.com"
+      ],
+      "stripes": {
+        "application_name": [
+          "home"
+        ]
+      }
+    },
+    {
+      "value": [
+        "none"
+      ],
+      "stripes": {
+        "application_name": [
+          "rails",
+          "travel-advisor"
+        ]
+      }
+    }
+  ],
+  "id": "5b8986a2d73dc80001a0b0c0",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP frame-ancestors value",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2021-06-15T11:53:28.308+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 6,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}

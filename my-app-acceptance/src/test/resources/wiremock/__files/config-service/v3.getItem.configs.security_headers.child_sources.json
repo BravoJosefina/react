@@ -1,0 +1,22 @@
+{
+  "name": "security_headers.child_sources",
+  "values": [
+    {
+      "value": []
+    }
+  ],
+  "id": "5b898650d73dc80001a0b0ba",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP child-src value",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2020-03-09T16:57:11.154+00:00",
+  "changed_by": "5082057",
+  "hidden_client_side": true,
+  "version": 4,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "ConfigServiceSenior TestUser"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "security_headers.frame_sources",
+  "values": [
+    {
+      "value": []
+    },
+    {
+      "value": [
+        "*.safeframe.googlesyndication.com",
+        "*.googlesyndication.com",
+        "*.google.com"
+      ],
+      "stripes": {
+        "application_name": [
+          "home",
+          "travel-advisor"
+        ]
+      }
+    }
+  ],
+  "id": "5b898681d73dc80001a0b0bd",
+  "type": "CONFIG_ITEM",
+  "description": "Sets CSP frame sources",
+  "stripes": [
+    "application_name"
+  ],
+  "changed_at": "2021-05-28T21:12:28.839+00:00",
+  "changed_by": "6446537",
+  "hidden_client_side": true,
+  "version": 5,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Vinson Gracia"
+}

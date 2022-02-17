@@ -1,0 +1,23 @@
+{
+  "name": "auth.metadata-signature.public-key",
+  "values": [
+    {
+      "value": "uy4gri63i746gfiy3g4of8gq38o74g"
+    }
+  ],
+  "id": "57c0c3298f989c18827963bb",
+  "type": "CONFIG_ITEM",
+  "description": "Public key used for verifying signed auth metadata.",
+  "format": {
+    "type": "string"
+  },
+  "changed_at": "2018-10-19T10:20:52.345+0000",
+  "changed_by": "5170806",
+  "hidden_client_side": false,
+  "version": 5,
+  "groups": [
+    "auth",
+    "step"
+  ],
+  "changed_by_name": "ConfigServiceSenior TestUser"
+}

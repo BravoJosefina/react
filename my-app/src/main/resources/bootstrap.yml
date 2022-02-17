@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: classpath:/egencia-default-bootstrap-properties.yml
+---
+
+info:
+  stage: ${STAGE:dev}
+  version: @project.version@
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
+    time: @timestamp@
+    commit:
+      id: @git.commit.id@
+
+spring:
+  application:
+    name: @project.artifactId@

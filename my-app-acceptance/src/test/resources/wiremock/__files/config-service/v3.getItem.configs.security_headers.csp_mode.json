@@ -1,0 +1,49 @@
+{
+  "name": "security_headers.csp_mode",
+  "values": [
+    {
+      "value": "report-only"
+    },
+    {
+      "value": "off",
+      "stripes": {
+        "application_name": [
+          "expense",
+          "uitoolkit-doc-site"
+        ]
+      }
+    },
+    {
+      "value": "report-only",
+      "stripes": {
+        "application_name": [
+          "home",
+          "rails",
+          "travel-advisor"
+        ]
+      }
+    }
+  ],
+  "id": "5b897c63dd4aca00017b0e41",
+  "type": "CONFIG_ITEM",
+  "description": "Enables/disabled CSP or sets the reporting mode of CSP violations",
+  "stripes": [
+    "application_name"
+  ],
+  "format": {
+    "type": "string",
+    "enum": [
+      "off",
+      "report-only",
+      "on"
+    ]
+  },
+  "changed_at": "2021-06-14T20:33:44.891+00:00",
+  "changed_by": "5177453",
+  "hidden_client_side": true,
+  "version": 12,
+  "groups": [
+    "security_headers"
+  ],
+  "changed_by_name": "Bowie Brotosumpeno"
+}

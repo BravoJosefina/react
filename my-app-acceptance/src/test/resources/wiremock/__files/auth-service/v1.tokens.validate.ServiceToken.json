@@ -1,0 +1,30 @@
+{
+  "clientID": "268364a0-cde6-4c1c-bdde-b3939008f6b1",
+  "metadata_signature": "zkHj1NY8mRwAob2HBJRXyXkkJ/7SPD+hTskq1WdMXYW6FAWmiz5zSNPr+BMju1lLcm8javwoF1RAwkLmNpjkMuIpXsiMGCuzjpuOsr9m6p/vg8JQluRw+IowkTVJthwWip6WDtapOJ9hTru13NdnPBbw254cEZTNc60ri0dOFnbdXFhlopNiCz4SAZCwmUfXqFuG3XTJ5wJLYArBh4t4nn4N8Zw6O0KkvwxrkyY5nJijo3varKl6EnRABFRpBSa7tb2+XAJhkUS2YzlOzNddOWD3MyBqHsZPqcmELrg2nVv2sDny05NWI5eveuAtw5VqqphFLNbs12vBPbZjJpemug==",
+  "productId": 0,
+  "clientName": "example-service",
+  "created": "2017-04-05T22:35:55.265Z",
+  "token_type": "Bearer",
+  "userId": 0,
+  "client_id": "268364a0-cde6-4c1c-bdde-b3939008f6b1",
+  "authenticated_entity": {
+    "active_profile": -1,
+    "profiles": [{
+      "user_id": -1,
+      "roles": [],
+      "scopes": [],
+      "bucket_id": 0
+    }]
+  },
+  "access_token": "ServiceToken",
+  "pointOfSale": null,
+  "companyId": 0,
+  "perCode": 0,
+  "expires_at": "2017-04-05T23:35:55.265Z",
+  "LastLogin": null,
+  "scope": "service",
+  "extendable": false,
+  "comCode": 0,
+  "expires_in": 3600,
+  "metadata_string": "{\"clientID\":\"268364a0-cde6-4c1c-bdde-b3939008f6b1\",\"productId\":0,\"clientName\":\"notification-service\",\"created\":\"2017-04-05T22:35:55.265Z\",\"token_type\":\"Bearer\",\"userId\":0,\"client_id\":\"268364a0-cde6-4c1c-bdde-b3939008f6b1\",\"authenticated_entity\":{\"active_profile\":-1,\"profiles\":[{\"user_id\":-1,\"roles\":[],\"scopes\":[],\"bucket_id\":0}]},\"access_token\":\"KsxZhjZu60VVq13tbP2EySZ6pd6jXUzU\",\"pointOfSale\":null,\"companyId\":0,\"perCode\":0,\"expires_at\":\"2017-04-05T23:35:55.265Z\",\"LastLogin\":null,\"scope\":\"service\",\"extendable\":false,\"comCode\":0,\"expires_in\":3600}"
+}

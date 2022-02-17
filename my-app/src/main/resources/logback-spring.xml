@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="false">
+    <contextName>logback-context</contextName>
+
+    <!-- Default Egencia logging configuration -->
+    <include resource="logback-egencia-default-base.xml"></include>
+
+</configuration>

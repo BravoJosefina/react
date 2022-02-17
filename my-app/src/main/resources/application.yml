@@ -1,0 +1,165 @@
+spring:
+  config:
+    import: classpath:/egencia-default-properties.yml
+
+---
+
+handlebars:
+  cache:
+    enabled: false
+
+# AuthFilter configuration (make sure to ask YOUR OWN basicAuth value)
+auth:
+  enabled: true
+  basic-auth: dXNlcm5hbWU6cGFzc3dvcmQ= #this is base64 of username:password. Please ask your OWN basicAuth from auth-service
+  redirect: true
+
+logging:
+  level:
+    root: INFO
+    com.egencia.library: INFO
+
+# UserService Base URI for UITK's GlobalContext
+userservice:
+  base-uri: ${egencia.services.base-url}/user-service
+
+server:
+  port: 8080
+  servlet:
+    context-path: /my-app
+  use-forward-headers: true
+
+management:
+  server:
+    port: 8083
+
+uitk:
+  react: true
+
+#-------------------------------------- Dev Profile Starts -----------------------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  egencia:
+    console:
+      display: pretty
+      colored: true
+
+egencia:
+  services:
+    base-url: https://wwwegenciacom.int-maui.sb.karmalab.net
+
+uitk:
+  uitk_asset_version: local
+  app_asset_version: local
+  # Enable react only in Dev mode and prod mode,
+  # to add react liberary to the script from UITK,
+  # and other profils will not.
+  react: true
+
+#-------------------------------------- Dev Profile Ends -----------------------------------------------------------
+#-------------------------------------- Alpha Profile Starts -----------------------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: alpha
+
+#-------------------------------------- Alpha Profile Ends -----------------------------------------------------------
+#-------------------------------------- Alpha US West 2 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: alpha-us-west-2
+
+
+#-------------------------------------- Alpha US West 2 Profile Ends -----------------------------------------------
+#-------------------------------------- Alpha EU West 1 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: alpha-eu-west-1
+
+#-------------------------------------- Alpha EU West 1 Profile Ends-----------------------------------------------
+
+---
+#-------------------------------------- Beta Profile Starts -----------------------------------------------------------
+spring:
+  config:
+    activate:
+      on-profile: beta
+
+#-------------------------------------- Beta Profile Ends --------------------------------------------------------------
+#-------------------------------------- Beta US West 2 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: beta-us-west-2
+
+
+  #-------------------------------------- Beta US West 2 Profile Ends -----------------------------------------------
+  #-------------------------------------- Beta EU West 1 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: beta-eu-west-1
+
+  #-------------------------------------- Beta EU West 1 Profile Ends-----------------------------------------------
+
+#-------------------------------------- Gamma Profile Starts -----------------------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: gamma
+
+#-------------------------------------- Gamma Profile Ends -----------------------------------------------------------
+#-------------------------------------- Gamma US West 2 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: gamma-us-west-2
+
+  #-------------------------------------- Gamma US West 2 Profile Ends -----------------------------------------------
+  #-------------------------------------- Gamma EU West 1 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: gamma-eu-west-1
+
+  #-------------------------------------- Gamma EU West 1 Profile Ends-----------------------------------------------
+
+#-------------------------------------- Prod Profile Starts -----------------------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  #-------------------------------------- Prod Profile Ends -----------------------------------------------------------
+  #-------------------------------------- Prod US West 2 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: prod-us-west-2
+
+  #-------------------------------------- Prod US West 2 Profile Ends -----------------------------------------------
+  #-------------------------------------- Prod EU West 1 Profile Begins -----------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: prod-eu-west-1
+
+  #-------------------------------------- Prod EU West 1 Profile Ends-----------------------------------------------

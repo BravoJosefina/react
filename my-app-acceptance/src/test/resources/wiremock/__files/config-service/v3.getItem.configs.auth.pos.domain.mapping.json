@@ -1,0 +1,18 @@
+{
+  "name": "auth.pos.domain.mapping",
+  "values": [
+  ],
+  "id": "0",
+  "type": "CONFIG_ITEM",
+  "description": "",
+  "format": {
+    "type": "string"
+  },
+  "changed_at": "2018-10-19T10:20:52.345+0000",
+  "changed_by": "5170806",
+  "hidden_client_side": false,
+  "version": 1,
+  "groups": [
+  ],
+  "changed_by_name": "ConfigServiceSenior TestUser"
+}
